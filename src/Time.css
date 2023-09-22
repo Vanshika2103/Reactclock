@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Time-container {
+  height: 100vh;
+  background-color: rgb(18, 18, 18);
+  background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.time-div {
+  padding: 25px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.225);
+  width: 500px;
+  box-shadow: 0 5px 10px 5px rgb(1, 36, 41);
+
+  height: 500px;
+}
+
+.time-div img {
+  width: 100%;
+  margin-top: 25px;
+  border-radius: 15px;
+}
+
+.time-div:hover {
+  transform: scale(1.111);
+  box-shadow: 0 5px 10px 5px rgb(1, 58, 66);
+  transition: 0.8s;
+}
